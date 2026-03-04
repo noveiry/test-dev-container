@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: "test-dev-container"
-          image: ghcr.io/noveiry/test-dev-container:latest
+          image: ghcr.io/noveiry/test-dev-container:520516d-20260304120740
           ports:
             - containerPort: 3000
           # minimal resources as this is just a test            
